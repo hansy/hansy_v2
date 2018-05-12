@@ -37,11 +37,6 @@ notAlternative = true
     name= "projects"
     weight= 1
 
-  [[menu.main]]
-    url= "/contact/"
-    name= "contact"
-    weight= 0
-
   [[menu.social]]
     name = "twitter"
     url= "https://twitter.com/laxbrownie"
