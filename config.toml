@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-gb"
-title = "{TITLE}"
+title = "Hans Yadav"
 
 enableRobotsTXT = true
 disableAliases = true
@@ -31,3 +31,29 @@ baseName = "_headers"
 isPlainText = true
 notAlternative = true
 
+[menu]
+  [[menu.main]]
+    url= "/projects/"
+    name= "projects"
+    weight= 1
+
+  [[menu.main]]
+    url= "/contact/"
+    name= "contact"
+    weight= 0
+
+  [[menu.social]]
+    name = "twitter"
+    url= "https://twitter.com/laxbrownie"
+
+  [[menu.social]]
+    name = "linkedin"
+    url= "https://linkedin.com/in/hansyadav"
+
+  [[menu.social]]
+    name = "github"
+    url= "https://github.com/hansy"
+
+  [[menu.social]]
+    name = "angellist"
+    url= "https://angel.co/hansy"

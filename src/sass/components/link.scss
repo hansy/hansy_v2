@@ -1,0 +1,13 @@
+@import '../base/vars';
+
+.link {
+  text-transform: lowercase;
+
+  &--big {
+    font-family: $font;
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    line-height: 1.5em;
+  }
+}

@@ -1,0 +1,8 @@
+.project {
+  margin: 5px 0 10px; }
+  .project h2 {
+    margin: 10px 10px 10px 0;
+    font-size: 1.4rem;
+    display: inline-block; }
+  .project p {
+    display: block; }
