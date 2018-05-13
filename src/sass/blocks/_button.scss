@@ -11,4 +11,13 @@
     color: $dark-grey;
     background-color: $white;
   }
+
+  &:disabled {
+    opacity: 0.3;
+
+    &:hover {
+      color: $white;
+      background-color: transparent;
+    }
+  }
 }
