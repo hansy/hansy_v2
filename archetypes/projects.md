@@ -2,6 +2,6 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 description: ""
-extLink: ""
+link: ""
 tags: []
 ---
