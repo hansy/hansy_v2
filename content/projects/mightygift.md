@@ -6,4 +6,4 @@ link: "https://mighty.gift"
 tags: ["active"]
 ---
 
-![ListSirv homepage](/images/projects/mightygift/homepage.png)
+![MightyGift homepage](/images/projects/mightygift/homepage.png)
