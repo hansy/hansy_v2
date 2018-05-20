@@ -21,7 +21,6 @@
         {{ block "main" . }}{{ end }}
       </div>
     </main>
-    {{ $.Permalink }}
     {{ if eq $.Permalink "/" }}
     {{ else }}
       {{ block "footer" . }}
