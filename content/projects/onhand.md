@@ -10,3 +10,5 @@ description: "Add scheduling to your website"
 
 onHand is a scheduling widget that can be embedded into any website to allow users to book appointments.
 
+onHand was acquired in April 2018.
+
