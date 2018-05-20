@@ -21,7 +21,7 @@
         {{ block "main" . }}{{ end }}
       </div>
     </main>
-    {{ if eq $.Permalink "/" }}
+    {{ if eq (relURL .URL) ("/" | safeHTML) }}
     {{ else }}
       {{ block "footer" . }}
         {{ partial "site/footer.html" . }}
