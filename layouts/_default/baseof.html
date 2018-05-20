@@ -21,7 +21,7 @@
         {{ block "main" . }}{{ end }}
       </div>
     </main>
-    {{ if eq (relURL .URL) ("/" | safeHTML) }}
+    {{ if .IsHome }}
     {{ else }}
       {{ block "footer" . }}
         {{ partial "site/footer.html" . }}
