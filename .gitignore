@@ -6,5 +6,9 @@
 /static/css/app.css
 /static/js/app.js
 
+<<<<<<< HEAD
 .DS_Store
 yarn-error.log
+=======
+/functions
+>>>>>>> d9174453634a86a3237c9cd60a8a3782c8181f1c
