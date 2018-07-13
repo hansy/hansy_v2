@@ -29,6 +29,7 @@
     "gulp-size": "^2.1.0",
     "gulp-uglify": "^3.0.0",
     "gulp-watch": "^4.3.11",
+    "hoek": "4.2.1",
     "node-sass-tilde-importer": "^1.0.2",
     "run-sequence": "^2.0.0"
   },
