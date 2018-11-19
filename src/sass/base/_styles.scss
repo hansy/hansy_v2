@@ -7,10 +7,12 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: $body-size;
+}
+
 body {
   background-color: $dark-grey;
-  font-size: 16px;
-  font-size: $body-size;
   font-family: $font;
   color: $body-text;
   line-height: 2rem;
@@ -61,9 +63,9 @@ hr {
 }
 
 .content {
-  margin: 2rem 0 3rem;
+  margin: 1.5rem 0 2.7rem;
 
   @media(min-width: 768px) {
-    margin: 8rem 0;
+    margin: 7rem 0;
   }
 }
