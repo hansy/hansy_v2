@@ -18,12 +18,4 @@ From a usability standpoint, the goal was to eliminate as much friction as possi
 
 Users could interact with the app with a number of SMS commands, so there was a rudimentary "chat bot" component as well.
 
-My target group for this kind of app was [Instagram](https://instagram.com) models. I figured these would be the folk who (a) don't have the same type of access to professional photo editors as do, say, magazine models and (b) generate tons more photos than their magazine counterparts.
-
-Boy was I wrong.
-
-Turns out almost every IG model above a certain follower threshold has his/her own photo editing person. The ones below the threshold use photo editing apps to do their touch ups. Turns out, it's become insanely easy to do professional-level editing on your own. Technology ftw.
-
-Maybe there exists a market for this kind of app, but after my Instagram hypotheses were debunked, I quickly saw this turning into a solution-looking-for-a-problem type of situation. I ended up scrapping the project just a few months after launch. 
-
-I probably should have done more extensive market research before building the app, but I guess I was super excited to play with Twilio's API in some capacity. Nonetheless I had a ton of fun building this and I might reuse some of the core SMS functionality for an actual chat bot in the future.
+My target group for this kind of app was amateur [Instagram](https://instagram.com) influencers. I figured these would be the folk who (a) don't have the same type of access to professional photo editors as do, say, magazine models and (b) generate tons more photos than their magazine counterparts.
