@@ -11,7 +11,7 @@
     {{ range .AlternativeOutputFormats }}
       <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
     {{ end }}
-    <link rel="stylesheet" href="/vendor/fontawesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="vendor/fontawesome/css/fontawesome-all.min.css">
     {{ block "site/styles" . }}{{ partial "site/styles.html" . }}{{ end }}
   </head>
   <body>
