@@ -2,41 +2,14 @@
   "name": "atlas",
   "private": true,
   "scripts": {
-    "build": "gulp build",
-    "build:preview": "gulp build-preview",
-    "start": "npm run server",
-    "server": "gulp server",
-    "server:with-drafts": "gulp server:with-drafts",
-    "cms:delete": "gulp cms-delete"
+    "start": "hugo server",
+    "build": "hugo && npm run build:functions",
+    "build:functions": "netlify-lambda build assets/lambda",
+    "server": "hugo server"
   },
   "dependencies": {
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0",
-    "babel-register": "^6.26.0",
-    "browser-sync": "^2.24.4",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.0",
-    "gulp-babel": "^8.0.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-cssnano": "^2.1.3",
-    "gulp-if": "^3.0.0",
-    "gulp-imagemin": "^6.1.0",
-    "gulp-load-plugins": "^2.0.1",
-    "gulp-newer": "^1.3.0",
-    "gulp-plumber": "^1.1.0",
-    "gulp-print": "^5.0.2",
-    "gulp-sass": "^4.0.1",
-    "gulp-sass-lint": "^1.3.2",
-    "gulp-size": "^3.0.0",
-    "gulp-uglify": "^3.0.0",
-    "gulp-watch": "^5.0.1",
-    "netlify-lambda": "^1.6.3",
-    "node-sass-tilde-importer": "^1.0.2",
-    "run-sequence": "^2.0.0"
-  },
-  "babel": {
-    "presets": [
-      "env"
-    ]
+    "autoprefixer": "^9.6.1",
+    "netlify-lambda": "^1.5.0",
+    "postcss-cli": "^6.1.3"
   }
 }
