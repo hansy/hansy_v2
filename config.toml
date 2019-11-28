@@ -1,5 +1,5 @@
 baseURL = "/"
-languageCode = "en-gb"
+languageCode = "en-us"
 title = "Hans Yadav"
 
 enableRobotsTXT = true
@@ -40,10 +40,6 @@ notAlternative = true
   [[menu.social]]
     name = "twitter"
     url= "https://twitter.com/laxbrownie"
-
-  [[menu.social]]
-    name = "linkedin"
-    url= "https://linkedin.com/in/hansyadav"
 
   [[menu.social]]
     name = "github"
